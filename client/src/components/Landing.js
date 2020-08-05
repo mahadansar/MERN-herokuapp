@@ -1,14 +1,12 @@
-import React from 'react';
+import React from "react";
 
 const Landing = () => {
-    return(
-        <div style={{textAlign: 'center'}}>
-            <h1>
-                Whalecum!
-            </h1>
-            Buy legal illegal stuff here.
-        </div>
-    )
-}
+  return (
+    <div style={{ textAlign: "center" }}>
+      <h1>Welcome!</h1>
+      Buy legal stuff here.
+    </div>
+  );
+};
 
 export default Landing;
