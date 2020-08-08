@@ -20,7 +20,7 @@ class Header extends Component {
             <Payments />
           </li>,
           <li key="3" style={{ margin: "0 10px" }}>
-            X Tapes: {this.props.auth.credits}
+            Tapes: {this.props.auth.credits}
           </li>,
           <li key="2">
             <a href="/api/logout">Logout</a>
